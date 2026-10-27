@@ -91,4 +91,3 @@ tests/test_bully.py      rastros de mensagens e estados
 - Mais de uma falha: `fail_process(6)` depois da eleição e inicie outra. O maior identificador que restar vence.
 - Recuperação de um processo que não é o maior: derrube `P3`, recupere-o e observe que a eleição termina de novo no maior ativo.
 - Leia `Process.receive_election` e `BullySimulator._run_wave` lado a lado. O processo decide a resposta; o simulador segura a vitória até a onda de `OK` terminar, para a ordem bater com a figura.
-# bully
